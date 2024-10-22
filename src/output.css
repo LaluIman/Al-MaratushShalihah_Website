@@ -1135,6 +1135,26 @@ input[type="range"]::-ms-fill-lower{
   height: 100%;
 }
 
+.h-auto{
+  height: auto;
+}
+
+.h-\[\]{
+  height: ;
+}
+
+.h-\[300\]{
+  height: 300;
+}
+
+.h-\[115\]{
+  height: 115;
+}
+
+.h-\[115px\]{
+  height: 115px;
+}
+
 .min-h-full{
   min-height: 100%;
 }
