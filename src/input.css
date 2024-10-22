@@ -1,0 +1,24 @@
+@import url('https://fonts.cdnfonts.com/css/playfair-display');
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#instagram-posts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.post {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 300px;
+    max-height: 500px;
+    overflow: scroll;
+}
+.post img, .post video {
+    width: 100%;
+    border-radius: 5px;
+}
