@@ -1135,26 +1135,6 @@ input[type="range"]::-ms-fill-lower{
   height: 100%;
 }
 
-.h-auto{
-  height: auto;
-}
-
-.h-\[\]{
-  height: ;
-}
-
-.h-\[300\]{
-  height: 300;
-}
-
-.h-\[115\]{
-  height: 115;
-}
-
-.h-\[115px\]{
-  height: 115px;
-}
-
 .min-h-full{
   min-height: 100%;
 }
@@ -1284,6 +1264,10 @@ input[type="range"]::-ms-fill-lower{
   justify-content: space-between;
 }
 
+.gap-1{
+  gap: 0.25rem;
+}
+
 .gap-10{
   gap: 2.5rem;
 }
@@ -1294,10 +1278,6 @@ input[type="range"]::-ms-fill-lower{
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-1{
-  gap: 0.25rem;
 }
 
 .gap-x-6{
@@ -1855,10 +1835,6 @@ input[type="range"]::-ms-fill-lower{
     flex-direction: row;
   }
 
-  .sm\:flex-col{
-    flex-direction: column;
-  }
-
   .sm\:space-x-5 > :not([hidden]) ~ :not([hidden]){
     --tw-space-x-reverse: 0;
     margin-right: calc(1.25rem * var(--tw-space-x-reverse));
@@ -1965,10 +1941,6 @@ input[type="range"]::-ms-fill-lower{
 
   .md\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .md\:grid-rows-4{
-    grid-template-rows: repeat(4, minmax(0, 1fr));
   }
 
   .md\:flex-row{

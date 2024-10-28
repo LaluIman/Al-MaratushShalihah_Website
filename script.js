@@ -12,7 +12,7 @@ ScrollReveal().reveal('.hero-image, .about-image, .visi-misi, .curriculum-box, .
 //  kurikulum data
 
 const items = [
-    'Ilmu Tauhid', 'Tahgidzul Qur\'an', 'Tafshinul Qur\'an', 'Tahsinul Qur\'an',
+    'Mapel Diniyah', 'Mapel Kauniyyah', 'Ilmu Tauhid', 'Tahgidzul Qur\'an', 'Tafshinul Qur\'an', 'Tahsinul Qur\'an',
     'Ulumul Qur\'an', 'Ushul Fiqh', 'Fiqh Wanita', 'Fiqh Nikah', 'Syarah Hadits',
     'Mustholahul Hadits', 'Hifdzul Hadits', 'Shiroh Nabawiyah', 'Bahasa Arab',
     'Nahwu', 'Shorof', 'Balaghoh', 'Manajemen Imu Pendidikan Islam', 'Mapel Kauniyyah',
